@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Relative Height Calculator</h1>
+
+    <form action="/action_page.php">
+        <label for="img">Select image:</label>
+        <input type="file" id="img" name="img" accept="image/*">
+        <input type="submit">
+    </form>
+
+    <p>Distance Entry Method:</p>
+    
+    <form>
+    <input type="radio" id="INSERT" name="distance-entry" value="INSERTTHIS">
+    <label for="ENTRY1">ENTRY1</label><br>
+    <input type="radio" id="INSERT1" name="distance-entry" value="INSERTTHIS">
+    <label for="ENTRY2">ENTRY2</ENTRY2><br>
+    <input type="radio" id="INSERT2" name="distance-entry" value="INSERTTHIS">
+    <label for="ENTRY3">ENTRY3</label>
+    </form>
+    <br>
+
+
+<label for="x-displacement">Horizontal displacement:</label>
+<input type="number" id="x-displacement" name="x-displacement"
+       min="0" >
+
+<label for="y-displacement">Vertical displacement:</label>
+<input type="number" id="y-displacement" name="y-displacement"
+        min="0">
+
+<label for="Straight line displacement">Straight Line Displacement:</label>
+<input type="number" id="straight-line-displacement" name="straight-line-displacement"
+        min="0">
+
+<br>
+
+Output is:<output name="result"></output>  
+    
+</body>
+</html>
